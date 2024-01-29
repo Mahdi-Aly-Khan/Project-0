@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.page1{ 
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(Construction.jpg) ;
+    background-size: cover;
+    height: 100vh;
+    width:100vw;
+}
+.logo{
+    color: rgb(158, 158, 24);
+    cursor: pointer;
+}
+.logo :hover{
+    color: yellow;
+}
+.options{
+    color: white;
+    opacity: 6;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    /* font-weight: -400; */
+    display: flex;
+    gap: 30px;
+    cursor: pointer;
+    position: relative;
+
+}
+.nav{
+    padding:0 5vw;
+    /* background: red; */
+    height: 10vh;
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.options :hover{
+    color:  rgb(158, 158, 24);
+}
+.title{
+    /* background: red; */
+    height: 80vh;
+    color: rgba(240, 248, 255, 0.724);  
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.title h1{
+    font-size: 10vh;
+    font-weight: 100;
+}
+.title p{
+    font-size: 20px;
+    font-weight: 100;
+}
+.title button{
+    padding: 15px 30px;
+    background-color: transparent;
+    color: white;
+    border-radius: 50px;
+    border-color: rgb(158, 158, 24);
+    border-style: solid;
+    font-weight: 600;
+    font-size: 20px;
+}
+.title button:hover{
+    background-color: rgb(158, 158, 24);
+    color: black;
+}
+.page2{
+    height: 90vh;
+    width: 100%;
+    background: black;
+    display: flex;
+    justify-content:center;
+    
+
+}
+.content{
+    /* background: red; */
+    padding: 100px 0;
+    color: white;
+    display: flex;
+    width: 50vw;
+    height: 100%;
+    align-items: center;
+    flex-direction: column;   
+    gap: 30px;
+}
+
+.content h1{
+    padding: 0;
+    margin: 0;
+    font-size: 50px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+.content p{
+    font-size:20px ;
+}
+.page3{
+    height: 150vh;
+    width: 100%;
+}
+
+.page3 img{
+    height: 49.4vh;
+    background-color: #000;
+    border-image: none;
+}
+
+.contact{
+    background: #000;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 65vh;
+    margin-top: -500px;
+    padding-top:100vh;
+    gap: 40px;
+}
+.contact h3{
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+.contact p{
+    font-size: 30px;
+}
+.contact button{
+    cursor: pointer;
+    padding: 20px 40px;
+    border-color: aliceblue;
+    background-color: #000;
+    color: white;
+    border-style: double;
+}
